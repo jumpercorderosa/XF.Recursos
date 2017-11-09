@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XF.Recursos"
+             x:Class="XF.Recursos.MainPage">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label FontSize="20" Text="Style Resources"></Label>
+                <Button x:Name="btnSimples" Text="Estilo padrão" Clicked="btnSimples_Clicked"></Button>
+                <Button x:Name="btnGlobal" Text="Estilo Global" Clicked="btnGlobal_Clicked"></Button>
+                <Button x:Name="btnDinamico" Text="Estilo dinâmico" Clicked="btnDinamico_Clicked"></Button>
+                <Button x:Name="btnTriggers" Text="Estilo event triggres" Clicked="btnTriggers_Clicked"></Button>
+                <Label FontSize="20" Text="TemplatedPage"></Label>
+                <Button x:Name="btnTemplate" Text="TemplatedPage" Clicked="btnTemplate_Clicked"></Button>
+                <Label FontSize="20" Text="Passar parametro"></Label>
+                <Button x:Name="btnHome" Text="Home" Clicked="btnHome_Clicked"></Button>
+                <Button x:Name="btnMC" Text="Messaging Center" Clicked="btnMC_Clicked"></Button>
+                <Label FontSize="20" Text="Master/Details"></Label>
+                <Button x:Name="btnMestre" Text="Menu" Clicked="btnMestre_Clicked"></Button>
+                <Label FontSize="20" Text="ListView"></Label>
+                <Button x:Name="btnListSimples" Text="Simples" Clicked="btnListSimples_Clicked"></Button>
+                <Button x:Name="btnListClasse" Text="Classe complexa" Clicked="btnListClasse_Clicked"></Button>
+                <Button x:Name="btnProduto" Text="Produto" Clicked="btnProduto_Clicked"></Button>
+                <Button x:Name="btnEtiqueta" Text="Etiqueta" Clicked="btnEtiqueta_Clicked"></Button>
+                <Label FontSize="20" Text="GeoLocation - GPS"></Label>
+                <Button x:Name="btnLocation" Text="Coordenada" Clicked="btnLocation_Clicked"></Button>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>
