@@ -99,7 +99,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FiapBoxViewRenderer.cs" />
+    <Compile Include="FiapButtonRenderer.cs" />
     <Compile Include="GeoLocation_Android.cs" />
+    <Compile Include="Ligar_Android.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

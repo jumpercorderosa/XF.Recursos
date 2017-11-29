@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF.Recursos.API.CameraView">
+    <ContentPage.Content>
+        <StackLayout Padding="5" Spacing="10">
+            <Button x:Name="btnCamera" Text="Foto" Clicked="btnCamera_Clicked" />
+            <Button x:Name="btnSelecionar" Text="Selecionar" Clicked="btnSelecionar_Clicked" />
+            <StackLayout>
+                <Image x:Name="imgFoto" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

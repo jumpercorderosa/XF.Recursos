@@ -78,5 +78,50 @@ namespace XF.Recursos
         {
             await Navigation.PushAsync(new GPS.CoordenadaView());
         }
+
+        private async void btnLigar_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new API.PhoneView());
+        }
+
+        private async void btnCamera_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new API.CameraView());
+        }
+
+        private async void btnData_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Controles.PickerView());
+        }
+
+        private async void btnProgresso_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Controles.ProgressoView());
+        }
+
+        private async void btnPicker_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Controles.ListPickerView());
+        }
+
+        private async void btnEditor_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Controles.EditorView());
+        }
+
+        private async void btnStepper_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Controles.StepperView());
+        }
+
+        private async void btnWeb_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Browse.BrowseView());
+        }
+
+        private async void btnCustom_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CustomControl.CustomView());
+        }
     }
 }

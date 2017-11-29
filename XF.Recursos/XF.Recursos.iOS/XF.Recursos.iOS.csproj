@@ -88,7 +88,11 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="CameraFoto_iOS.cs" />
+    <Compile Include="FiapBoxViewRenderer.cs" />
+    <Compile Include="FiapButtonRenderer.cs" />
     <Compile Include="GeoLocation_iOS.cs" />
+    <Compile Include="Ligar_iOS.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <None Include="Entitlements.plist" />

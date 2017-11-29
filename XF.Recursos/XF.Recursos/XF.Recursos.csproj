@@ -35,9 +35,39 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="API\CameraView.xaml.cs">
+      <DependentUpon>CameraView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="API\ICamera.cs" />
+    <Compile Include="API\ILigar.cs" />
+    <Compile Include="API\PhoneView.xaml.cs">
+      <DependentUpon>PhoneView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Browse\BrowseView.xaml.cs">
+      <DependentUpon>BrowseView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\EditorView.xaml.cs">
+      <DependentUpon>EditorView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\ListPickerView.xaml.cs">
+      <DependentUpon>ListPickerView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\PickerView.xaml.cs">
+      <DependentUpon>PickerView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\ProgressoView.xaml.cs">
+      <DependentUpon>ProgressoView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\StepperView.xaml.cs">
+      <DependentUpon>StepperView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControl\CustomView.xaml.cs">
+      <DependentUpon>CustomView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControl\FiapCustom.cs" />
     <Compile Include="Estilo\DinamicoView.xaml.cs">
       <DependentUpon>DinamicoView.xaml</DependentUpon>
     </Compile>
@@ -251,6 +281,60 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="GPS\CoordenadaView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="API\PhoneView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="API\CameraView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controles\PickerView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controles\ProgressoView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controles\ListPickerView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controles\EditorView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controles\StepperView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Browse\BrowseView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CustomControl\CustomView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
